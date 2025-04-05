@@ -1,10 +1,26 @@
 .header {
-  padding: 80px; 
+  padding: 30px; 
   text-align: center;
   background: #000;
   color: white; 
 }
 
 .header h1 { 
-  font-size: 40px; 
+  font-size: 50px; 
+}
+
+/* Style the top of the navigation bar */
+.navbar a { 
+  text-align: center;
+  padding-left: 25px;
+  color: black; 
+}
+
+.navbar a.right { 
+  float: right; 
+}
+
+.navbar a:hover { 
+  background-color: #f4ff93;
+  color: rgb(0, 0, 0); 
 }
